@@ -6,21 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>에어비앤비: 휴가용 임대 숙소, 통나무집, 비치 하우스, 독특한 숙소 및 체험</title>
-    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="src/style/home.css">
+    <link rel="stylesheet" href="src/style/city.css">
+    <link rel="stylesheet" href="src/style/recommend.css">
+    <link rel="stylesheet" href="src/style/activity.css">
+    <link rel="stylesheet" href="src/style/hosting.css">
+    <link rel="stylesheet" href="src/style/footer.css">
     <link rel="stylesheet" href="src/style/reset.css">
     <link rel="stylesheet" href="src/style/normalize.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 
 <body>
-    <div>
-        <aside class="covid-info">
-            <a href="#">
-                <span>에어비앤비의 코로나19 대응 방안에 대한 최신 정보를 확인하세요.</span>
-            </a>
-        </aside>
-    </div>
+    <aside class="covid-info">
+        <a href="#">
+            <span>에어비앤비의 코로나19 대응 방안에 대한 최신 정보를 확인하세요.</span>
+        </a>
+    </aside>
+   
 
     <section class="home">
         <header>
@@ -29,26 +34,22 @@
                     <a href="#"><img src="assets/img/logo.png" alt=""></a>
                 </div>
                 <div class="header-center">
-                    <div class="header-center-item">
-                        <button>숙소</button>
-                        <button>체험</button>
-                        <button>온라인 체험</button>
-                    </div>
+                    <button>숙소</button>
+                    <button>체험</button>
+                    <button>온라인 체험</button>
                 </div>
                 <div class="header-right">
-                    <div class="header-right-item">
-                        <div>
-                            <a href="">호스트 되기</a>
-                        </div>
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
-                                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
-                              </svg>
-                        </div>
-                        <div>
-                            <button type="button">
-                            </button>
-                        </div>
+                    <div>
+                        <a href="">호스트 되기</a>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+                            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+                            </svg>
+                    </div>
+                    <div>
+                        <button type="button">
+                        </button>
                     </div>
                 </div>
             </div>
@@ -81,26 +82,258 @@
                     </div>
                 </form>
             </div>
-
         </section>
 
         <section class="home-center">
-            <div class="home-center-container">
-                <div class="home-center-heading">
-                    <h1>
-                        올림픽/<br>패럴림픽 출전 선수와 함께하는 온라인 체험<br>
-                    </h1>
+            <div class="home-center-heading">
+                <h1>
+                    올림픽/<br>패럴림픽 출전 선수와 함께하는 온라인 체험<br>
+                </h1>
+            </div>
+            <div>
+                <button type="button">지금 둘러보기</button>
+            </div>
+        </section>
+    </section>
+
+    <main>
+        <section class="row explore-nearby">
+            <h2 class="sub-heading">가까운 여행지 둘러보기</h2>
+            
+            <div class="explore-citys">
+                <div class="city-name seoul">
+                    <a href="">
+                        <img src="assets/img/citys/seoul.jpg" alt="">
+                        <div>
+                            <strong>서울</strong>
+                            <span>차로 3.5시간 거리</span>
+                        </div>
+                    </a>
                 </div>
-                <div>
-                    <button type="button">지금 둘러보기</button>
+                <div class="city-name busan">
+                    <a href="">
+                        <img src="assets/img/citys/busan.jpg" alt="">
+                        <div>
+                            <strong>부산</strong>
+                            <span>차로 4.5시간 거리</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="city-name yangyang">
+                    <a href="">
+                        <img src="assets/img/citys/yangyang.jpg" alt="">
+                        <div>
+                            <strong>양양</strong>
+                            <span>차로 1.5시간 거리</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="city-name sokcho">
+                    <a href="">
+                        <img src="assets/img/citys/sokcho.jpg" alt="">
+                        <div>
+                            <strong>속초</strong>
+                            <span>차로 1.5시간 거리</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="city-name goseong">
+                    <a href="">
+                        <img src="assets/img/citys/goseong.jpg" alt="">
+                        <div>
+                            <strong>고성</strong>
+                            <span>차로 2시간 거리</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="city-name wanju">
+                    <a href="">
+                        <img src="assets/img/citys/wanju.jpg" alt="">
+                        <div>
+                            <strong>완주</strong>
+                            <span>차로 5시간 거리</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="city-name daegu">
+                    <a href="">
+                        <img src="assets/img/citys/daegu.jpg" alt="">
+                        <div>
+                            <strong>대구</strong>
+                            <span>차로 3.5시간 거리</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="city-name jeonju">
+                    <a href="">
+                        <img src="assets/img/citys/jeonju.jpg" alt="">
+                        <div>
+                            <strong>전주</strong>
+                            <span>차로 5시간 거리</span>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="row help-search">
+            <img src="assets/img/help-search.jpg" alt="">
+            <div class="help-search-btn">
+                <h2>어디든 상관없이 떠나고 싶을 때에어비앤비가 도와드립니다!</h2>
+                <button type="button">유연한 검색</button>
+            </div>
+        </section>
+
+        <section class="row recommend-type">
+            <h2 class="sub-heading">어디에서나, 여행은 살아보는 거야!</h2>
+            <div class="recommend-type-items">
+                <div class="type-box">
+                    <img src="assets/img/type/nature-type.jpg" alt="">
+                    <strong>자연생활을 만끽할 수 있는 숙소</strong>
+                </div>
+                <div class="type-box">
+                    <img src="assets/img/type/special-type.jpg" alt="">
+                    <strong>독특한 공간</strong>
+                </div>
+                <div class="type-box">
+                    <img src="assets/img/type/whole-rent-type.jpg" alt="">
+                    <strong>집 전체</strong>
+                </div>
+                <div class="type-box">
+                    <img src="assets/img/type/pet-friendly-type.jpg" alt="">
+                    <strong>반려동물 동반 가능</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="row explore-activity">
+            <h2 class="sub-heading">특별한 즐길 거리를 찾아보세요</h2>
+            <div class="activity-items-container">
+                <div class="activity-type">
+                    <img src="assets/img/activity/reco-activity.jpg" alt="">
+                    <strong>추천 컬렉션: 여행 본능을 깨우는 체험</strong>
+                    <span>온라인 체험으로 집에서 랜선 여행을 즐기세요.</span>
+                </div>
+                <div class="activity-type">
+                    <img src="assets/img/activity/online-activity.jpg" alt="">
+                    <strong>온라인 체험</strong>
+                    <span>호스트와 실시간으로 소통하면서 액티비티를 즐겨보세요.</span>
+                </div>
+                <div class="activity-type">
+                    <img src="assets/img/activity/nearby-activity.jpg" alt="">
+                    <strong>체험</strong>
+                    <span>가까운 곳에서 즐길 수 있는 잊지 못할 체험을 찾아보세요.</span>
                 </div>
             </div>
 
         </section>
 
-    </section>
-    
+        <section class="row start-hosting">
+            <img src="assets/img/start-hosting.jpg" alt="">
+            <div class="start-hosting-btn">
+                <h1>호스팅 시작하기</h1>
+                <span>숙소를 공유하여 부수입을 올리고 새로운 가능성을 만나세요.</span>
+                <button type="button">자세히 알아보기</button>
+            </div>
+        </section>
+    </main>
 
+    <footer>
+        <section class="row footer-link">
+            <div class="footer-container">
+                <div class="footer-item footer-into">
+                    <h3>소개</h3>
+                    <ul>
+                        <li><a href="">에어비앤비 이용 방법</a></li>
+                        <li><a href="">뉴스룸</a></li>
+                        <li><a href="">에어비앤비 2021</a></li>
+                        <li><a href="">투자자 정보</a></li>
+                        <li><a href="">에어비앤비 플러스</a></li>
+                        <li><a href="">에어비앤비 Luxe</a></li>
+                        <li><a href="">호텔투나잇</a></li>
+                        <li><a href="">에어비앤비 비즈니스 프로그램</a></li>
+                        <li><a href="">호스트 분들이 있기에 가능합니다.</a></li>
+                        <li><a href="">채용정보</a></li>
+                        <li><a href="">창립자 편지</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item footer-community">
+                    <h3>커뮤니티</h3>
+                    <ul>
+                        <li><a href="">다양성 및 소속감</a></li>
+                        <li><a href="">접근성</a></li>
+                        <li><a href="">에어비앤비 에소시에이트</a></li>
+                        <li><a href="">구호 인력을 위한 숙소</a></li>
+                        <li><a href="">게스트 추천</a></li>
+                        <li><a href="">Airbnb.org</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item footer-hosting">
+                    <h3>호스팅하기</h3>
+                    <ul>
+                        <li><a href="">숙소 호스팅</a></li>
+                        <li><a href="">온라인 체험 호스팅하기</a></li>
+                        <li><a href="">체험 호스팅하기</a></li>
+                        <li><a href="">책임감 있는 호스팅</a></li>
+                        <li><a href="">자료 센터</a></li>
+                        <li><a href="">커뮤니티 센터</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item footer-support">
+                    <h3>에어비앤비 지원</h3>
+                    <ul>
+                        <li><a href="">에어비앤비의 코로나19 대응 방안</a></li>
+                        <li><a href="">도움말 센터</a></li>
+                        <li><a href="">예약 취소 옵션</a></li>
+                        <li><a href="">에어비앤비 이웃 민원 지원</a></li>
+                        <li><a href="">신뢰와 안전</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="row footer-info">
+            <div>
+                <ul  class="info-link">
+                    <li><a href="#">© 2021 Airbnb, Inc</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">한국의 변경된 환불 정책</a></li>
+                    <li><a href="#">회사 세부정보</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-into-items">
+                <div>
+                    <ul class="info-link">
+                        <li>
+                            <label for="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+                                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+                                    </svg>
+                            </label>
+                            <button type="button">한국어(KR)</button>
+                        </li>
+                        <li>
+                            <label for="">\</label>
+                            <button type="button">KRW</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="social-link-container">
+                    <ul class="info-link social-link">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
