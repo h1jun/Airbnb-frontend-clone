@@ -1,0 +1,81 @@
+.row {
+    padding: 0 150px;
+    position: relative;
+}
+
+header {
+    height: 80px;
+    border-bottom: 1px solid #777;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+header a,
+header a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.header-right div {
+    margin: 0 20px;
+}
+
+.profile button{
+    display: flex;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #777;
+    cursor: pointer;
+    align-items: center;
+    background-color: #fff;
+}
+
+.profile button svg {
+    padding: 0 6px;
+    color: #717171 ;
+}
+.profile button svg:last-child {
+    width: 28px;
+    height: 28px;
+}
+
+
+.online-main{
+    margin: 20px 0;
+}
+.online-main {
+    height: 630px;
+    background-image: url(/Airbnb-frontend-clone/assets/img/experiences/experiences-main.jpg);
+    background-size: 110%; 
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.online-main h1 {
+    font-size: 52px;
+    line-height: 56px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.online-main p {
+    width: 360px;
+    font-size: 18px;
+    font-weight: 26px;
+    line-height: 30px;
+} 

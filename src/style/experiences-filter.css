@@ -1,0 +1,46 @@
+.filter,
+.filter-main,
+ .filter-detail {
+    display: flex;
+}
+
+.filter-detail {
+    overflow: hidden;
+}
+
+.filter {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E5E5E5;
+
+}
+
+.filter-main button {
+    background-color: white;
+    border: 1px solid #777;
+    border-radius: 30px;
+    min-width: max-content;
+    height: 36px;
+    font-size: 14px;
+    margin-right: 5px;
+    padding: 8px 16px;
+}
+
+.filter-main button:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter-main button:first-child span {
+    padding-right: 5px;
+}
+
+
+
+.filter-detail button {
+    min-width: max-content;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 5px;
+   
+}
