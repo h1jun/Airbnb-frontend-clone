@@ -5,3 +5,52 @@
 .best-seller .country {
     margin-top: 10px;
 }
+
+
+.best1 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-1.jpg);
+}
+.best1:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-1-hover.jpg);
+    transition: .2s linear;
+}
+
+.best2 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-2.jpeg);
+}
+.best2:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-2-hover.jpeg);
+    transition: .2s linear;
+}
+
+.best3 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-3.jpeg);
+}
+.best3:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-3-hover.jpeg);
+    transition: .2s linear;
+}
+
+.best4 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-4.jpeg);
+}
+.best4:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-4.-hover.jpeg);
+    transition: .2s linear;
+}
+
+.best5 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-5.jpeg);
+}
+.best5:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-5-hover.jpeg);
+    transition: .2s linear;
+}
+
+.best6 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-6.jpeg);
+}
+.best6:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/best/best-6-hover.jpeg);
+    transition: .2s linear;
+}

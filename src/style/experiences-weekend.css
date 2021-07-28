@@ -1,3 +1,56 @@
 .weekend-online {
     margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.country {
+    margin-top: 10px;
+}
+
+.weekend1 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend1.jpeg);
+}
+.weekend1:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend1-hover.jpeg);
+    transition: .2s linear;
+}
+
+.weekend2 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend2.jpeg);
+}
+.weekend2:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend2-hover.jpeg);
+    transition: .2s linear;
+}
+
+.weekend3 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend3.jpeg);
+}
+.weekend3:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend3-hover.jpeg);
+    transition: .2s linear;
+}
+
+.weekend4 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend4.jpg);
+}
+.weekend4:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend4-hover.jpg);
+    transition: .2s linear;
+}
+
+.weekend5 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend5.jpeg);
+}
+.weekend5:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend5-hover.jpeg);
+    transition: .2s linear;
+}
+
+.weekend6 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend6.jpeg);
+}
+.weekend6:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/weekend/weekend6-hover.jpeg);
+    transition: .2s linear;
 }
