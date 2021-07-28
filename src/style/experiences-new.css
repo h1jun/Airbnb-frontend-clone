@@ -1,0 +1,31 @@
+.new-row {
+    padding: 0 0 0 150px;
+}
+
+.collection {
+    display: flex;
+}
+
+.theme {
+    border-radius: 10px;
+    height: 330px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 0 0;
+}
+
+.theme-olympic {
+    background-image: url(/Airbnb-frontend-clone/assets/img/theme/theme-olympic.jpg);
+}
+
+.theme-japan {
+    background-image: url(/Airbnb-frontend-clone/assets/img/theme/theme-japan.jpg);
+
+}
+
+.theme-popular {
+    background-image: url(/Airbnb-frontend-clone/assets/img/theme/theme-popular.jpg);
+}
+
+

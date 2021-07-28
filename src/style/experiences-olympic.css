@@ -1,0 +1,157 @@
+.olympic-section {
+    margin-top: 30px;
+}
+
+.olympic-section-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.olympic-section-title h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.olympic-section-title a {
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+.olympic-section-title button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid rgb(221, 221, 221);
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+
+.olympic-items {
+    display: flex;
+    margin: 20px 0;
+}
+
+.olympic-items a,
+.olympic-items a:hover {
+    text-decoration: none;
+}
+
+.olympic-article {
+    position: relative;
+    display: flex;
+    margin: 0 3px;
+}
+
+.player-btn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+.player-btn button,
+.player-btn button div {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.player-btn button {
+    margin-left: 10px;
+    padding: 4px 8px;
+    border-radius: 3px;
+    border: 0;
+    border-color: white;
+}
+
+.player-btn div {
+    margin-right: 10px;
+}
+.article-info {
+    width: 100%;
+}
+
+.article-info h4 {
+    margin: 10px 0;
+    color: #717188;
+    font-size: 14px;
+}
+
+.article-info p {
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.article-info span {
+    font-size: 15px;
+    color: black;
+}
+
+.article-info span strong {
+    font-weight: 800;
+}
+
+
+.player {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 13vw;
+    height: 35vh;
+    border-radius: 10px;
+}
+
+.player1 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player1.jpeg);
+}
+.player1:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player1-hover.jpeg);
+    transition: .2s linear;
+}
+
+.player2 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player2.jpeg);
+}
+.player2:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player2-hover.jpeg);
+    transition: .2s linear;
+}
+
+.player3 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player3.jpeg);
+}
+.player3:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player3-hover.jpg);
+    transition: .2s linear;
+}
+
+.player4 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player4.jpeg);
+}
+.player4:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player4-hover.jpeg);
+    transition: .2s linear;
+}
+
+.player5 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player5.jpg);
+}
+.player5:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player5-hover.jpeg);
+    transition: .2s linear;
+}
+
+.player6 {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player6.jpeg);
+}
+.player6:hover {
+    background-image: url(/Airbnb-frontend-clone/assets/img/olympic/player6-hover.jpeg);
+    transition: .2s linear;
+}
