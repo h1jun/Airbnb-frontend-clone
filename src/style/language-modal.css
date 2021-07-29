@@ -1,0 +1,112 @@
+.lang-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.lang-content div {
+    color: black;
+}
+
+.lang-content {
+    background-color: white;
+    padding: 25px;
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+    width: 53%;
+    height: 85vh;
+    min-width: 1000px;
+    overflow: scroll;
+}
+
+.select-lang ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+
+.lang-exit {
+    margin-bottom: 40px;
+}
+.lang-exit button,
+.lang-tap button {
+    all: unset;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    min-width: max-content;
+} 
+
+.lang-tap {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.lang-tap button {
+    margin-right: 17px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.reco-lang h2,
+.select-lang h2 {
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 24px;
+}
+
+.reco-lan {
+    margin-bottom: 18px;
+}
+.reco-lang-items {
+    display: flex;
+}
+
+.reco-lang-items li, .lang-item {
+    padding: 9px 12px;
+    width: 176px;
+    margin-left: 3px;
+ 
+}
+
+.reco-lang-items li  a div:last-child,
+.lang-item a div:last-child {
+    margin-top: 2px;
+    color: rgb(113, 113, 113);
+}
+
+.lang-items {
+    border-radius: 40px;
+    padding: 9px 12px;
+}
+
+.select-lang h2,
+.reco-lang h2 {
+    margin-top: 30px;
+}
+
+.select-lang > ul > li > a div {
+    font-size: 14px;
+}
+
+.select-lang li:hover {
+    background-color: rgba(128, 128, 128, 0.1)
+}
+
+.show {
+    display: none;
+}

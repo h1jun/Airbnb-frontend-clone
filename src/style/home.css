@@ -66,6 +66,11 @@
     margin: 0 20px;
 }
 
+.profile {
+    position: relative;
+    display: inline-block;
+}
+
 .profile button{
     display: flex;
     width: 80px;
@@ -168,8 +173,6 @@
 }
 
 /* ------------------------------------------ */
-
-
 .home-center {
     margin-top: 140px;
     color: white;
@@ -200,4 +203,42 @@
     font-weight: 600;
 }
 
+/* Dropdown */
+.profile-dropdown {
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    max-height: max-content;
+    padding: 15px;
+    position: absolute;
+    top: 60px;
+    left: -127px;
+}
 
+.dropdown-link,
+.dropdown-link:hover {
+    color: black;
+    font-size: 14px;
+}
+
+
+.profile-dropdown > ul > li {
+    padding: 10px 0;
+}
+
+.profile-dropdown ul li:first-child:first-child {
+    font-weight: 600;
+}
+
+.show {
+    display: block;
+}
+
+/* language Modal */
+.language-select {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
