@@ -7,41 +7,18 @@
 @import url(recommend.css);
 @import url(reset.css);
 
-
-.header-right {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+body {
+    font-family: 'Circular';
 }
 
-.header-right div {
-    margin: 0 20px;
+.row {
+    padding: 0 120px;
 }
 
-.profile button{
-    display: flex;
-    width: 80px;
-    height: 40px;
-    border-radius: 20px;
-    border: 1px solid #777;
-    cursor: pointer;
-    align-items: center;
-    background-color: #fff;
-}
-
-.profile button svg {
-    padding: 0 6px;
-    color: #717171 ;
-}
-.profile button svg:last-child {
-    width: 28px;
-    height: 28px;
-}
 
 a,
 a:hover {
     color: #fff;
     text-decoration: none;
     font-size: 15px;
-
 }
