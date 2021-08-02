@@ -112,9 +112,10 @@
     border: none;
     border-radius: 40px;
     background-color: white;
+    position: relative;
 }
 
-.home-search-form-item div {
+.home-padding  {
     padding: 20px 20px 20px 36px;
 }
 
@@ -327,3 +328,73 @@
 .hidden-none {
     display: none;
 }
+
+#search-hidden {
+    padding: 0;
+    margin-left: 11px;
+}
+
+/* 인원  */
+.home-search-form-item .person-detail {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    width: 395px;
+    height: 245px;
+    background-color: #fff;
+    border-radius: 20px;   
+}
+
+.person-detail-container {
+    padding: 25px 35px;
+}
+.person-detail-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.person-detail-item {    
+    margin-bottom: 30px;
+}
+
+.person-count {
+    display: flex;
+    align-items: center;
+}
+
+.person-count button,
+.person-count div {
+    margin: 0 10px;
+
+}
+
+.person-count button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DEDEDE;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+.person-detail-item > div:first-child > span {
+    line-height: 26px;
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+}
+
+.person-detail-item > div:first-child > strong {
+    font-size: 16px;
+    font-weight: 600;
+} 
+
+.person-num {
+    
+    width: 15px;
+    text-align: center;
+
+} 
