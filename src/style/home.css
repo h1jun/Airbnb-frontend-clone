@@ -140,6 +140,16 @@
     color: #777;
 }
 
+
+.location,
+.check-in,
+.check-out,
+.person,
+.search-btn {
+    cursor: pointer;
+
+}
+
 .location {
     flex-grow: 2;
 }

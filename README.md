@@ -25,5 +25,8 @@
 - header 지구본 모양 클릭 시 언어/통화 모달창 추가
 
 ### 7월 30일
-- 랜딩 페이지 스크롤 시 header 부분 고정
-- 온라인 체험 페이지 스크롤 시 filter 부분 고정
+- 랜딩 페이지 스크롤 시 header 부분 고정 (`position: fixed;` 사용)
+- 온라인 체험 페이지 스크롤 시 filter 부분 고정 (`position: sticky` 사용)
+
+## 8월 2일
+- login modal 수정 (`event.stopPropagation` 사용)
