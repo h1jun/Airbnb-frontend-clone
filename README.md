@@ -31,7 +31,7 @@
 ## 8월 2일
 - login modal 수정 (`event.stopPropagation` 사용)
 - 인원 count modal 추가
-- 성인/어린이/유아 인원 추가 및 감소 시 총인원 count
+- 성인/어린이/유아 인원 추가 및 감소 시 총인원 count(`for`문으로 `previousElementSibling`를 사용하여 `person-num` 영역 수정)
 
 **고민사항**
 - 인원수 변경을 감지하여 총 인원 count를 변경할 수 있는지 알아보기
@@ -40,3 +40,4 @@
 **수정사항**
 - Search bar 클릭 이벤트 수정(팝업)
 - 유아 인원만 별도로 count 하도록 수정
+- 총 인원 0명 시 마이너스 버튼 button disabled 해주기
