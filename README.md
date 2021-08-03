@@ -40,4 +40,7 @@
 **수정사항**
 - Search bar 클릭 이벤트 수정(팝업)
 - 유아 인원만 별도로 count 하도록 수정
-- 총 인원 0명 시 마이너스 버튼 button disabled 해주기
+- ~~총 인원 0명 시 마이너스 버튼 button disabled 해주기~~
+
+## 8월 3일
+- 인원 0명 시 button disabled 수정 완료

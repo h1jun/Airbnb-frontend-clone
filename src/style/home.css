@@ -369,6 +369,10 @@
 
 }
 
+.person-detail-item .person-count .person-minus {
+    cursor: not-allowed;
+}
+
 .person-count button {
     display: flex;
     align-items: center;
