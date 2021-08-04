@@ -12,5 +12,6 @@
 
 body {
     font-family: 'Circular';
+    overflow-x: hidden;
 }
 

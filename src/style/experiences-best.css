@@ -54,3 +54,18 @@
     background-image: url(/Airbnb-frontend-clone/assets/img/best/best-6-hover.jpeg);
     transition: .2s linear;
 }
+
+.olympic-items-best {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slides {
+    display: flex;
+    position: relative;
+    left: 0;
+    width: 4860px;
+    transition: left .5s ease-in-out;
+
+}

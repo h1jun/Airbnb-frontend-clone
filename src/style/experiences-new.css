@@ -1,12 +1,16 @@
+.olympic-section-title {
+    margin-bottom: 15px;
+}
 .collection {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    position: relative;
+    transition: left .5s ease-in-out;
 }
 
 .theme {
-    min-width: 38%;
-    height: 330px;;
-    display: flex;
-    flex-direction: column;
+    width: 590px;
+    height: 330px;
     margin: 0 10px 0 0;
     border-radius: 10px;
     color: white;
@@ -38,14 +42,41 @@
 }
 
 
-
-.theme-btn {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-
+.theme-teamWork {
+    background-image: url(/Airbnb-frontend-clone/assets/img/theme/theme-teamWork.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
+.theme-hosting {
+    background-image: url(/Airbnb-frontend-clone/assets/img/theme/theme-hosting.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.theme-family {
+    background-image: url(/Airbnb-frontend-clone/assets/img/theme/theme-family.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.theme-knowledge {
+    background-image: url(/Airbnb-frontend-clone/assets/img/theme/theme-knowledge.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.theme-btn {
+    width: 235px;
+    padding: 23px;
+    /* position: absolute;
+    display: flex;
+    flex-direction: column; */
+}
+
+.theme-btn small {
+    font-size: 14px;
+}
 
 .theme-btn h2 {
     font-size: 24px;
@@ -53,7 +84,10 @@
     line-height: 30px;
 }
 
-.theme-btn button {
+.theme button {
+    position: absolute;
+    bottom: 27px;
+    left: 25px;
     width: max-content;
     padding: 10px 15px;
     border-radius: 10px;
