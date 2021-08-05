@@ -62,7 +62,8 @@
 }
 
 .slides {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
     position: relative;
     left: 0;
     width: 4860px;
