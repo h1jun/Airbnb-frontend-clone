@@ -1,10 +1,49 @@
-const homeSearchItem = document.querySelector('.home-search-form-item');
+const homeSearchItem = document.querySelector('.search-form-item');
 const searchBtn = document.querySelector('.search-btn');
 const searchBtnItem = document.querySelector('.search-btn button');
 const searchHidden = document.querySelector('.search-hidden');
 const personBtn = document.querySelector('.person');
 const personDetail = document.querySelector('.person-detail');
 const gusetTotal = document.querySelector('.person span');
+
+function render() {
+    let template = `
+    <div class="person-detail-container">
+        {{__person-detail-item__}}
+    </div>
+    `
+
+    const persoonDetail = [['adult', '성인', '만 13세 이상'], ['children', '어린이', '만 2~12세 이상'], ['infants', '유아', '만 2세 미만']]
+
+    const detailList = []
+    for(let i = 0; i < persoonDetail.length; i++) {
+        detailList.push(`
+            <div class="person-detail-item">
+                <div class="${persoonDetail[i][0]}">
+                    <strong>${persoonDetail[i][1]}</strong>
+                    <span>${persoonDetail[i][2]}</span>
+                </div>
+
+                <div class="person-count">
+                    <button disabled type="button" class="person-minus">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <div class="person-num">0</div>
+                    <button type="button" class="person-plus">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        `);
+    }
+
+    template = template.replace('{{__person-detail-item__}}', detailList.join(''));
+
+    personDetail.innerHTML = template;
+}
+
+render();
+
 
 
 searchBtnItem.addEventListener("click", (event) => {
@@ -122,6 +161,5 @@ for(const personMinus of personMinuses) {
 
 // personBtn
 personBtn.addEventListener('click', () => {
-    personDetail.classList.toggle('hidden-none');
+    personDetail.classList.toggle('hidden');
 })
-

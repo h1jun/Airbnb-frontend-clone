@@ -1,3 +1,4 @@
+/* ----------covid-info, 최상단 코로나 info link---------- */
 .covid-info {
     padding: 20px 80px;
     background-color: #222;
@@ -13,7 +14,7 @@
     color: #A3A3A3CC;
 }
 
-/* ------------------------------------------ */
+/* ----------header---------- */
 .home {
     height: 85vh;
     background-image: url(/Airbnb-frontend-clone/assets/img/main.jpg);
@@ -36,7 +37,6 @@
     width: 120px;
     height: 32px;
 }
-
 
 .header-center {
     width: max-content;
@@ -62,9 +62,10 @@
 }
 
 .header-right div {
-    margin: 0 20px;
+    padding: 0 20px;
 }
 
+/* ----------profile---------- */
 .profile {
     position: relative;
     display: inline-block;
@@ -72,25 +73,54 @@
 
 .profile button{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 80px;
     height: 40px;
     border-radius: 20px;
     border: 1px solid #777;
-    cursor: pointer;
-    align-items: center;
     background-color: #fff;
+    font-size: 20px;
+    cursor: pointer;
 }
 
-.profile button svg {
+.profile button i {
     padding: 0 6px;
     color: #717171 ;
 }
-.profile button svg:last-child {
-    width: 28px;
-    height: 28px;
+
+
+/* ----------profile dropdown ----------*/
+.profile-dropdown {
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+    max-height: max-content;
+    padding: 15px;
+    position: absolute;
+    top: 60px;
+    left: -85px;
 }
 
-/* ------------------------------------------ */
+.dropdown-link,
+.dropdown-link:hover {
+    color: black;
+    font-size: 14px;
+}
+
+.profile-dropdown > ul > li {
+    padding: 10px 0;
+}
+
+.profile-dropdown ul li:first-child:first-child {
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ----------home search----------*/
 .home-search {
     color: black;
     font-size: 15px;
@@ -100,10 +130,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-.home-search-form-item {
+.search-form-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,28 +148,28 @@
     padding: 20px 20px 20px 36px;
 }
 
-.home-search-form-item label,
-.home-search-form-item strong {
+.search-form-item label,
+.search-form-item strong {
     display: block;
 }
 
-.home-search-form-item input {
+.search-form-item input {
     border: none;
 }
 
-.home-search-form-item > div > label,
-.home-search-form-item > div > strong  {
+.search-form-item > div > label,
+.search-form-item > div > strong  {
     font-size: 12px;
     line-height: 16px;
     font-weight: 800;
     letter-spacing: 0.04em;
     padding-bottom: 2px;
 }
-.home-search-form-item > div > span {
+
+.search-form-item > div > span {
     font-size: 14px;
     color: #777;
 }
-
 
 .location,
 .check-in,
@@ -182,14 +211,80 @@
     color: white;
 }
 
-/* ------------------------------------------ */
+/* ----------인원 count----------*/
+.search-form-item .person-detail {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    width: 395px;
+    height: 245px;
+    background-color: #fff;
+    border-radius: 20px;   
+}
+
+.person-detail-container {
+    padding: 25px 35px;
+}
+.person-detail-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.person-detail-item {    
+    margin-bottom: 30px;
+}
+
+.person-count {
+    display: flex;
+    align-items: center;
+}
+
+.person-count button,
+.person-count div {
+    margin: 0 10px;
+}
+
+.person-detail-item .person-count .person-minus {
+    cursor: not-allowed;
+}
+
+.person-count button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DEDEDE;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+.person-detail-item > div:first-child > span {
+    line-height: 26px;
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+}
+
+.person-detail-item > div:first-child > strong {
+    font-size: 16px;
+    font-weight: 600;
+} 
+
+.person-num {
+    width: 15px;
+    text-align: center;
+} 
+
+
+/* ----------home-center----------*/
 .home-center {
     padding: 140px 0;
     color: white;
     display: flex;
     flex-direction: column;
 }
-
 
 .home-center-heading {
     width: 450px;
@@ -215,45 +310,19 @@
     font-weight: 600;
 }
 
-/* Dropdown */
-.profile-dropdown {
-    display: none;
-    background-color: white;
-    border-radius: 10px;
-    width: 150px;
-    max-height: max-content;
-    padding: 15px;
-    position: absolute;
-    top: 60px;
-    left: -127px;
-}
-
-.dropdown-link,
-.dropdown-link:hover {
-    color: black;
-    font-size: 14px;
-}
-
-
-.profile-dropdown > ul > li {
-    padding: 10px 0;
-}
-
-.profile-dropdown ul li:first-child:first-child {
-    font-weight: 600;
-}
-
-.hidden {
-    display: block;
-}
-
-/* language Modal */
+/* ----------language Modal----------*/
 .language-select {
     background: transparent;
     border: none;
     color: white;
     cursor: pointer;
 }
+
+
+
+
+
+/* --check plz-- */
 
 /* Sticky navi */
 .fix {
@@ -305,12 +374,10 @@
     background-color: white;
 }
 
-
 .header-center-fix > button div:first-child{
     font-size: 14px;
     font-weight: 600;
     margin-left: 20px;
-
 }
 
 .header-center-fix > button div:last-child{
@@ -325,80 +392,7 @@
     color: white;
 }
 
-.hidden-none {
-    display: none;
-}
-
 #search-hidden {
     padding: 0;
     margin-left: 11px;
 }
-
-/* 인원  */
-.home-search-form-item .person-detail {
-    position: absolute;
-    top: 80px;
-    right: 30px;
-    width: 395px;
-    height: 245px;
-    background-color: #fff;
-    border-radius: 20px;   
-}
-
-.person-detail-container {
-    padding: 25px 35px;
-}
-.person-detail-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.person-detail-item {    
-    margin-bottom: 30px;
-}
-
-.person-count {
-    display: flex;
-    align-items: center;
-}
-
-.person-count button,
-.person-count div {
-    margin: 0 10px;
-
-}
-
-.person-detail-item .person-count .person-minus {
-    cursor: not-allowed;
-}
-
-.person-count button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #DEDEDE;
-    background-color: white;
-    width: 32px;
-    height: 32px;
-    border-radius: 26px;
-    cursor: pointer;
-}
-
-.person-detail-item > div:first-child > span {
-    line-height: 26px;
-    font-size: 14px;
-    color: rgb(113, 113, 113);
-}
-
-.person-detail-item > div:first-child > strong {
-    font-size: 16px;
-    font-weight: 600;
-} 
-
-.person-num {
-    
-    width: 15px;
-    text-align: center;
-
-} 
