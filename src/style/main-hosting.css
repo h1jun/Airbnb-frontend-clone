@@ -1,3 +1,4 @@
+/* ----------main > start-hosting----------  */
 .start-hosting {
     position: relative;
     margin: 80px 0;
@@ -31,8 +32,6 @@
     line-height: 24px;
     margin-bottom: 30px;
 }
-
-
 
 .start-hosting-btn button {
     width: 167px;

@@ -1,11 +1,11 @@
-@import url(activity.css);
-@import url(city.css);
+@import url(main-activity.css);
+@import url(main-recommend.css);
+@import url(main-city.css);
+@import url(main-home.css);
+@import url(main-hosting.css);
 @import url(footer.css);
-@import url(home.css);
-@import url(hosting.css);
-@import url(normalize.css);
-@import url(recommend.css);
 @import url(language-modal.css);
+@import url(normalize.css);
 @import url(reset.css);
 
 body {

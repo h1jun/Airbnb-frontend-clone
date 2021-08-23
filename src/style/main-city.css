@@ -1,5 +1,5 @@
+/* ----------main > explore-nearby----------  */
 .explore-nearby {
-    padding: 0 120px;
     margin-top: 60px;
     margin-bottom: 60px;
 }
@@ -38,6 +38,7 @@
     margin-left: 15px;
 }
 
+/* ----------main > help-search----------  */
 .help-search {
     position: relative;
 }
@@ -72,5 +73,3 @@
     font-weight: bold;
     cursor: pointer;
 }
-
-
